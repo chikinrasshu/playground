@@ -1,0 +1,16 @@
+{
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.mouseWheelZoom": true,
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+    },
+    "files.associations": {
+        "str.h": "c",
+        "log.h": "c",
+        "stdio.h": "c",
+        "types.h": "c",
+        "direct.h": "c"
+    }
+}

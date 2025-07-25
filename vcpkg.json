@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "cwalk",
+    "dirent",
+    "stb"
+  ]
+}
