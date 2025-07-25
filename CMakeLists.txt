@@ -52,6 +52,7 @@ target_include_directories(chk_packer PUBLIC "include")
 target_include_directories(chk_packer PRIVATE ${DIRENT_INCLUDE_DIRS})
 target_compile_features(chk_packer PUBLIC c_std_11)
 target_link_libraries(chk_packer PUBLIC chk_core)
+target_link_libraries(chk_packer PRIVATE cwalk)
 add_custom_command(TARGET chk_packer POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E create_symlink
     "${CMAKE_SOURCE_DIR}/assets"

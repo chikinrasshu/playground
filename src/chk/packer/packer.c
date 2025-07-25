@@ -6,6 +6,7 @@
 #include <cwalk.h>
 #include <dirent.h>
 
+#include <stdio.h>
 #include <string.h>
 
 chk_packer_config_t chk_packer_config_default(void) {
